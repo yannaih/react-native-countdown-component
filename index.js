@@ -229,7 +229,7 @@ CountDown.defaultProps = {
 
 const styles = StyleSheet.create({
   timeCont: {
-    flexDirection: 'row',
+    flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
     justifyContent: 'center',
   },
   timeTxt: {
