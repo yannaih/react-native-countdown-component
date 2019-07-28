@@ -6,7 +6,8 @@ import {
   View,
   Text,
   TouchableOpacity,
-  AppState
+  AppState,
+  I18nManager
 } from 'react-native';
 import _ from 'lodash';
 import {sprintf} from 'sprintf-js';
